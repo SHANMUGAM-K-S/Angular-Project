@@ -7,6 +7,8 @@
     --font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono",
       "Courier New", monospace;
     --color-red-400: oklch(0.704 0.191 22.216);
+    --color-red-500: oklch(0.637 0.237 25.331);
+    --color-green-500: oklch(0.723 0.219 149.579);
     --color-emerald-50: oklch(0.979 0.021 166.113);
     --color-blue-500: oklch(0.623 0.214 259.815);
     --color-slate-100: oklch(0.968 0.007 247.896);
@@ -187,6 +189,12 @@
   .static {
     position: static;
   }
+  .top-2 {
+    top: calc(var(--spacing) * 2);
+  }
+  .right-3 {
+    right: calc(var(--spacing) * 3);
+  }
   .isolate {
     isolation: isolate;
   }
@@ -347,6 +355,12 @@
   }
   .text-emerald-50 {
     color: var(--color-emerald-50);
+  }
+  .text-green-500 {
+    color: var(--color-green-500);
+  }
+  .text-red-500 {
+    color: var(--color-red-500);
   }
   .text-white {
     color: var(--color-white);
